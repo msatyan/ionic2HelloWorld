@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Detail Page</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+    <h3>Hello World</h3>
+
+    <div class="center">
+        <p class="ionic-logo"></p>
+    </div>
+
+    <div *ngIf="selectedItem" padding>
+        You navigated here from <b>{{selectedItem.title}}</b>
+    </div>
+</ion-content>
+
+
+<ion-footer>
+    <ion-toolbar>
+        <ion-title>Footer</ion-title>
+    </ion-toolbar>
+</ion-footer>
