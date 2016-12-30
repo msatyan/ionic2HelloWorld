@@ -7,9 +7,9 @@ import { Page2 } from '../pages/page2/page2';
 
 
 @Component({
-    templateUrl: 'app.html'
+    templateUrl: 'app.sm.html'
 })
-export class MyApp
+export class SideMenu
 {
     @ViewChild(Nav) nav: Nav;
 
